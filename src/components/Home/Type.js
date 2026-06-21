@@ -6,10 +6,11 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Gordito",
-          "Chiquito",
-          "Bonito",
-          "Tierno",
+          "Reducir",
+          "Gestionar",
+          "Separar",
+          "Reciclar",
+          "Reutilizar"
         ],
         autoStart: true,
         loop: true,
