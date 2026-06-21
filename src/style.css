@@ -453,7 +453,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: linear-gradient(to left, #56b888, #297450);
 }
 
 .project-card {
@@ -465,7 +465,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px #FFB6C1 !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -624,7 +624,7 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: linear-gradient(to left, #56b888, #297450);
   color: white !important;
 }
 
