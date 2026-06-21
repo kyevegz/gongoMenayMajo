@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import esponja from "../../Assets/Projects/esponja.jpg";
+import jabonLiquido from "../../Assets/Projects/jabonLiquido.jpg";
+import huevos from "../../Assets/Projects/huevos.jpg";
+import almendras from "../../Assets/Projects/almendras.jpg";
+import bolsa from "../../Assets/Projects/bolsa.png";
+import jabonBarra from "../../Assets/Projects/jabonBarra.jpg";
 
 function Projects() {
   return (
@@ -15,75 +15,74 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Mis <strong className="purple">Favoritos </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Apartado de mis productos favoritos.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={almendras}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="1kg de almendras"
+              description="Contenedor con un kilo de almendras."
+              ghLink="https://www.mercadolibre.com.mx/almendra-natural-1kg-calidad-premium/p/MLM36728588#polycard_client=recommendations_vpp-pdp-v2p-pom&reco_backend=ranker_retrieval_system_vpp_v2p&reco_model=fallback_organicos_deduplication&reco_client=vpp-pdp-v2p-pom&reco_item_pos=0&reco_backend_type=low_level&reco_id=4bc5745f-b1b5-4452-9fd8-87f7467d6107&wid=MLM2062988215&sid=recos"
+              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={jabonBarra}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Jabón natural"
+              description="Jabón natural hecho a mano para cuerpo, rosa, azul, amarillo, realizado con proceso frio."
+              ghLink="https://www.mercadolibre.com.mx/dr-natural-jabon-corporal-de-castilla-en-barra-natural-141g/up/MLMU3804623629?pdp_filters=item_id%3AMLM5324805822%7Cshipping%3Afulfillment%7Cdeal%3AMLM1020488-1"
+              //demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={huevos}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Huevos"
+              description="Un cartón de huevos blancos de gallina."
+              ghLink="https://www.chedraui.com.mx/huevo-blanco-30-piezas-3378511/p?ta=1782071523&gad_source=1&gad_campaignid=23749377327&gclid=CjwKCAjwl97RBhBWEiwAa9rbXZXj4w2aKtetBIye7nOcRXq0sC8u2nXuynf8Cy-JDwTUVXJR7xRrDBoCjdcQAvD_BwE"
+              //demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={esponja}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Esponja de trastes"
+              description="Esponja azul y verde para lavar trastes."
+              ghLink="https://www.mercadolibre.com.mx/2-fibras-con-esponja-trastes-ollas-sarten-cocina-ttaio/p/MLM45596563?pdp_filters=item_id:MLM2572358873|shipping:fulfillment|deal:MLM1020488-1#is_advertising=true&searchVariation=MLM45596563&backend_model=search-backend&be_origin=backend&position=1&search_layout=grid&type=pad&tracking_id=f0e5b9de-57d4-41b5-b100-9efef8d09f44&ad_domain=VQCATCORE_SUPERMARKET&ad_position=1&ad_click_id=NjU4MWU5MTEtZjQ2ZC00NjhiLWJiODQtMTE1ZGZhZGZiZDA0"
+              //demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={bolsa}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Bolsa ecológica"
+              description="Bolsa ecológica azul de tela."
+              ghLink="https://es.uline.mx/Product/Detail/S-25723/Reusable-Shopping-Bags/Deluxe-Jute-Shoppers-12-x-7-3-4-x-12?pricode=WD5640&gadtype=pla&id=S-25723&ad_group_id=153865562345&gad_source=1&gad_campaignid=1349684074&gclid=CjwKCAjwl97RBhBWEiwAa9rbXUxYvLsCKE5i4w_Eg8k1HN5wIqCNEpLauca4iRurUTIeRI3wRHApThoCqHgQAvD_BwE"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={jabonLiquido}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Jabón líquido"
+              description="Jabón líquido a base de ingredientes naturales. "
+              ghLink="https://www.mercadolibre.com.mx/jabon-liquido-para-manos-blumen-cherry-blossom-4l/p/MLM37034844?pdp_filters=shipping%3Afulfillment%7Cdeal%3AMLM1020488-1#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=5&type=product&tracking_id=c546cdf9-e213-4bfe-bbde-c8f2d837f76f&wid=MLM3656276782&sid=search"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
