@@ -1,54 +1,54 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiNextdotjs, SiSolidity } from "react-icons/si";
-import { FaRust } from "react-icons/fa";
-import Go from "../../Assets/TechIcons/go.svg";
-import C from "../../Assets/TechIcons/C++.svg";
-import Javascript from "../../Assets/TechIcons/Javascript.svg";
-import Node from "../../Assets/TechIcons/Node.svg";
-import ReactIcon from "../../Assets/TechIcons/React.svg";
-import HaskellIcon from "../../Assets/TechIcons/Haskell.svg";
-import Java from "../../Assets/TechIcons/Java.svg";
-import Python from "../../Assets/TechIcons/Python.svg";
-import Typescript from "../../Assets/TechIcons/Typescript.svg";
-import Git from "../../Assets/TechIcons/Git.svg";
-import Firebase from "../../Assets/TechIcons/Firebase.svg";
-import Redis from "../../Assets/TechIcons/Redis.svg";
-import Docker from "../../Assets/TechIcons/Docker.svg";
-import Mongo from "../../Assets/TechIcons/Mongo.svg";
-import SQL from "../../Assets/TechIcons/SQL.svg";
-import Kubernates from "../../Assets/TechIcons/Kubernates.svg";
-import Redux from "../../Assets/TechIcons/Redux.svg";
-import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
-import MUI from "../../Assets/TechIcons/MUI.svg";
-import Postman from "../../Assets/TechIcons/Postman.svg";
-import AWS from "../../Assets/TechIcons/AWS.svg";
-import Kafka from "../../Assets/TechIcons/Kafka.svg";
+// import { SiNextdotjs, SiSolidity } from "react-icons/si";
+// import { FaRust } from "react-icons/fa";
+import Go from "../../Assets/TechIcons/jardineria.png";
+import C from "../../Assets/TechIcons/artesania.png";
+import Javascript from "../../Assets/TechIcons/ropa.svg";
+import Node from "../../Assets/TechIcons/utensilios.svg";
+// import ReactIcon from "../../Assets/TechIcons/React.svg";
+// import HaskellIcon from "../../Assets/TechIcons/Haskell.svg";
+// import Java from "../../Assets/TechIcons/Java.svg";
+// import Python from "../../Assets/TechIcons/Python.svg";
+import Typescript from "../../Assets/TechIcons/comida.png";
+// import Git from "../../Assets/TechIcons/Git.svg";
+// import Firebase from "../../Assets/TechIcons/Firebase.svg";
+// import Redis from "../../Assets/TechIcons/Redis.svg";
+// import Docker from "../../Assets/TechIcons/Docker.svg";
+// import Mongo from "../../Assets/TechIcons/Mongo.svg";
+// import SQL from "../../Assets/TechIcons/SQL.svg";
+// import Kubernates from "../../Assets/TechIcons/Kubernates.svg";
+// import Redux from "../../Assets/TechIcons/Redux.svg";
+// import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
+// import MUI from "../../Assets/TechIcons/MUI.svg";
+// import Postman from "../../Assets/TechIcons/Postman.svg";
+// import AWS from "../../Assets/TechIcons/AWS.svg";
+// import Kafka from "../../Assets/TechIcons/Kafka.svg";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={C} alt="C++" />
-        <div className="tech-icons-text">C++</div>
+        <img src={C} alt="C++" width={70} height={70}/>
+        <div className="tech-icons-text">Artesanías y decoración</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Javascript} alt="javascript" />
-        <div className="tech-icons-text">Javascript</div>
+        <img src={Javascript} alt="javascript" width={70} height={70}/>
+        <div className="tech-icons-text">Textiles y calzado</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Typescript} alt="typescript" />
-        <div className="tech-icons-text">Javascript</div>
+        <img src={Typescript} alt="typescript" width={70} height={70}/>
+        <div className="tech-icons-text">Alimentos</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Go} alt="go" />
-        <div className="tech-icons-text">Go</div>
+        <img src={Go} alt="go" width={70} height={70}/>
+        <div className="tech-icons-text">Plantas y jardinería</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Node} alt="node" />
-        <div className="tech-icons-text">Node.Js</div>
+        <img src={Node} alt="node" width={70} height={70} />
+        <div className="tech-icons-text">Utensilios</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <img src={ReactIcon} alt="react" />
         <div className="tech-icons-text">React.Js</div>
       </Col>
@@ -136,7 +136,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={Kafka} alt="Kafka" className="tech-icon-images" />
         <div className="tech-icons-text">Kafka</div>
-      </Col>
+      </Col> */}
     </Row>
   );
 }
