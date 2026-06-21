@@ -81,9 +81,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #852d3a !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0px 10px 10px 0px rgba(32, 2, 13, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -149,14 +149,14 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #ffb6c1 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
 }
 .navbar-brand {
-  color: rgb(250, 250, 250) !important;
+  color: rgb(250, 250, 250)¿¿¿¿ !important;
 }
 
 .logo {
@@ -165,7 +165,7 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: #e0fff0 !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -199,7 +199,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #5fb58c;
+  background: #fbd8dd;
   bottom: 1px;
   left: 0;
   z-index: -1;

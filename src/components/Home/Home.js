@@ -4,8 +4,8 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Techstack from "../About/Techstack";
-import Github from "../About/Github";
+//import Techstack from "../About/Techstack";
+//import Github from "../About/Github";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -22,16 +22,16 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Spory{" "}
+                Gongo{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
+                  🍄
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                Impulsar el consumo sostenible.
-                <strong className="main-name"> </strong>
-                <strong className="main-name"></strong>
+                Hacer más
+                <strong className="main-name"> más </strong> y
+                <strong className="main-name"> mejor </strong> con menos
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
