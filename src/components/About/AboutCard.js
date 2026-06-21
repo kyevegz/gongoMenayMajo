@@ -8,37 +8,36 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            En este apartado podrás explorar las diferentes <span className="purple"> categorías </span>{" "}
+            de productos que <span className="purple">Gongo</span> tiene disponibles.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            Pone a tu disposición una amplia variedad de productos, como{" "}
+            <span className="purple">artesanías y decoración</span>, {" "}
+            <span className="purple">textiles y calzado</span>,
+            
+            <span className="purple">alimentos</span>,{" "}
+            <span className="purple">utensilios</span> y <span className="purple">plantas</span>.
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            Te mostraremos productos que se encuentren:
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Mi ubicación
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Alrededores
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Todos
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: "rgb(240, 214, 255)" }}>
+            "El precio de cualquier cosa es la cantidad de vida que intercambias por ella."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Herny David Thoreau</footer>
         </blockquote>
       </Card.Body>
     </Card>
