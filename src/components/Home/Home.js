@@ -29,7 +29,7 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                Hacer más
+                Hacer
                 <strong className="main-name"> más </strong> y
                 <strong className="main-name"> mejor </strong> con menos
               </h1>

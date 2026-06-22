@@ -2,12 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import esponja from "../../Assets/Projects/esponja.jpg";
-import jabonLiquido from "../../Assets/Projects/jabonLiquido.jpg";
-import huevos from "../../Assets/Projects/huevos.jpg";
-import almendras from "../../Assets/Projects/almendras.jpg";
-import bolsa from "../../Assets/Projects/bolsa.png";
-import jabonBarra from "../../Assets/Projects/jabonBarra.jpg";
+import esponja from "../../Assets/Products/esponja.jpg";
+import jabonLiquido from "../../Assets/Products/jabonLiquido.jpg";
+import huevos from "../../Assets/Products/huevos.jpg";
+import almendras from "../../Assets/Products/almendras.jpg";
+import bolsa from "../../Assets/Products/bolsa.png";
+import jabonBarra from "../../Assets/Products/jabonBarra.jpg";
+import botellacero from "../../Assets/Products/botellaacerp.jpg";
+import pistachos from "../../Assets/Products/pistachos.jpg";
+import miel from "../../Assets/Products/miel.jpg";
+import mermelada from "../../Assets/Products/mermeladafresa.jpg";
 
 function Projects() {
   return (
@@ -20,8 +24,8 @@ function Projects() {
         <p style={{ color: "white" }}>
           Apartado de mis productos favoritos.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <Row xs={1} sm={2} md={3} lg={4} xl={5} style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col className="project-card">
             <ProjectCard
               imgPath={almendras}
               isBlog={false}
@@ -32,7 +36,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col className="project-card">
             <ProjectCard
               imgPath={jabonBarra}
               isBlog={false}
@@ -43,7 +47,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col className="project-card">
             <ProjectCard
               imgPath={huevos}
               isBlog={false}
@@ -54,7 +58,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col className="project-card">
             <ProjectCard
               imgPath={esponja}
               isBlog={false}
@@ -65,7 +69,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col className="project-card">
             <ProjectCard
               imgPath={bolsa}
               isBlog={false}
@@ -76,12 +80,56 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col className="project-card">
             <ProjectCard
               imgPath={jabonLiquido}
               isBlog={false}
               title="Jabón líquido"
               description="Jabón líquido a base de ingredientes naturales. "
+              ghLink="https://www.mercadolibre.com.mx/jabon-liquido-para-manos-blumen-cherry-blossom-4l/p/MLM37034844?pdp_filters=shipping%3Afulfillment%7Cdeal%3AMLM1020488-1#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=5&type=product&tracking_id=c546cdf9-e213-4bfe-bbde-c8f2d837f76f&wid=MLM3656276782&sid=search"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col className="project-card">
+            <ProjectCard
+              imgPath={botellacero}
+              isBlog={false}
+              title="Botella de acero inoxidable 500ml"
+              description="Botella reutilizable con capacidad de 500ml para transportar tus bebidas a todos lados. "
+              ghLink="https://www.mercadolibre.com.mx/jabon-liquido-para-manos-blumen-cherry-blossom-4l/p/MLM37034844?pdp_filters=shipping%3Afulfillment%7Cdeal%3AMLM1020488-1#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=5&type=product&tracking_id=c546cdf9-e213-4bfe-bbde-c8f2d837f76f&wid=MLM3656276782&sid=search"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col className="project-card">
+            <ProjectCard
+              imgPath={pistachos}
+              isBlog={false}
+              title="1kg de pistaches"
+              description="Tarro con 1kg de pistaches frescos. "
+              ghLink="https://www.mercadolibre.com.mx/jabon-liquido-para-manos-blumen-cherry-blossom-4l/p/MLM37034844?pdp_filters=shipping%3Afulfillment%7Cdeal%3AMLM1020488-1#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=5&type=product&tracking_id=c546cdf9-e213-4bfe-bbde-c8f2d837f76f&wid=MLM3656276782&sid=search"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col className="project-card">
+            <ProjectCard
+              imgPath={mermelada}
+              isBlog={false}
+              title="Mermelada de fresa casera 500gr"
+              description="Mermelada de fresa casera, a base de frutas naturales sin azúcar. "
+              ghLink="https://www.mercadolibre.com.mx/jabon-liquido-para-manos-blumen-cherry-blossom-4l/p/MLM37034844?pdp_filters=shipping%3Afulfillment%7Cdeal%3AMLM1020488-1#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=5&type=product&tracking_id=c546cdf9-e213-4bfe-bbde-c8f2d837f76f&wid=MLM3656276782&sid=search"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col className="project-card">
+            <ProjectCard
+              imgPath={miel}
+              isBlog={false}
+              title="Miel natural 1kg"
+              description="Miel producida responsablemente. "
               ghLink="https://www.mercadolibre.com.mx/jabon-liquido-para-manos-blumen-cherry-blossom-4l/p/MLM37034844?pdp_filters=shipping%3Afulfillment%7Cdeal%3AMLM1020488-1#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=5&type=product&tracking_id=c546cdf9-e213-4bfe-bbde-c8f2d837f76f&wid=MLM3656276782&sid=search"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />

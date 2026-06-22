@@ -454,6 +454,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: linear-gradient(to left, #56b888, #297450);
+
 }
 
 .project-card {
@@ -461,7 +462,9 @@ button:focus {
   padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
+
   height: auto !important;
+  background-color: transparent !important;
 }
 
 .project-card-view {
@@ -484,6 +487,7 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+ 
 }
 
 .blog-card-view {
@@ -512,13 +516,14 @@ button:focus {
 .card-img-top {
   padding: 20px !important;
   opacity: 0.8 !important;
-  border-radius: 10px !important;
+  border-radius: 25px !important;
+
 }
 
 .blog-img {
   padding: 0px !important;
   opacity: 0.8 !important;
-  border-radius: 0px !important;
+  /* border-radius: 0px !important; */
 }
 
 .btn-primary {
