@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/logo.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -10,40 +10,50 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              ¿Qué es <span className="purple"> Gongo </span> y por qué es importante?
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              Gongo es un espacio donde productores locales pueden ofrecer
+              sus productos a la comunidad, fomentando el consumo responsable y 
+              apoyando a los pequeños negocios. En un mundo donde el consumo masivo y 
+              la producción en masa han llevado a una crisis ambiental, Gongo se presenta 
+              como una alternativa sostenible y consciente.
               <br />
               <br />
-              I’m proficient in
+              Es una propuesta de solución para el
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  ODS 12{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              a través de la promoción de prácticas de consumo y producción responsables,
+              fomentando la economía local y reduciendo el impacto ambiental.
               <br />
               <br />
-              My key areas of interest include developing
+              El progreso que hemos consumido en las últimas décadas,
+              ha venido acompañado de una
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  degradación medioambiental,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              la cual, ha colocado a esos sitemas de los que dependemos, en una situación 
+              de peligro para el futuro y, con ello, nuestra                 <b className="purple">
+                  {" "}
+                  supervivencia{" "}
+                </b>.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              Son muchos cambios por hacer que, de modificarse en suma, pueden tener un gran impacto en la sociedad.
+              <br /> 
+              Los gobiernos deben implantar y poner en marcha
+              <b className="purple"> políticas y normativas </b> que recojan medidas como el establecimiento de objetivos.{" "}
+              Es importante adoptar una 
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">vida más sostenible:</b> consumir menos, elegir productos con menor impacto ambiental {" "}
+                y una economía circular para diseñar productos <b className="purple">duraderos, reparables y reciclables</b>.
               </i>
             </p>
           </Col>
