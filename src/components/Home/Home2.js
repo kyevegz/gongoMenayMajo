@@ -10,51 +10,41 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              ¿Qué es <span className="purple"> Gongo </span> y por qué es importante?
+              ¿Qué econtrarás en <span className="purple"> Gongo </span>?
             </h1>
             <p className="home-about-body">
-              Gongo es un espacio donde productores locales pueden ofrecer
-              sus productos a la comunidad, fomentando el consumo responsable y 
-              apoyando a los pequeños negocios. En un mundo donde el consumo masivo y 
-              la producción en masa han llevado a una crisis ambiental, Gongo se presenta 
-              como una alternativa sostenible y consciente.
+              Gongo ofrece varios productos de productores locales, ya sea de Abasolo, Gto., o de lugares
+              cercanos al municipio.
+              En nuestro catálogo podrás hallar productos organizados en diversas categorías, 
+              como alimentos, moda, productos de limpieza, entre otros.
               <br />
               <br />
-              Es una propuesta de solución para el
+              Además, promueve el emprendimiento de los jóvenes
               <i>
                 <b className="purple">
                   {" "}
-                  ODS 12{" "}
+                  CBTis 171{" "},
                 </b>
               </i>
-              a través de la promoción de prácticas de consumo y producción responsables,
-              fomentando la economía local y reduciendo el impacto ambiental.
+              dándoles un espacio para dar seguimiento a los proyectos de emprendimiento 
+              que desarrollan en la institución, y así, puedan ofrecer sus productos a la comunidad, atacando puntos de sostenibilidad y crecimiento ecónomico.
               <br />
               <br />
-              El progreso que hemos consumido en las últimas décadas,
-              ha venido acompañado de una
+              ¡Anímate a consumir menos y mejor!
               <i>
                 <b className="purple">
                   {" "}
-                  degradación medioambiental,{" "}
+                  explora y encuentra alternativas,{" "}
                 </b>
               </i>
-              la cual, ha colocado a esos sitemas de los que dependemos, en una situación 
-              de peligro para el futuro y, con ello, nuestra                 <b className="purple">
+              a los típicos productos cuya fabricación compromete varios ejes del medioambiente.
+                              <b className="purple">
                   {" "}
-                  supervivencia{" "}
+                  {" "}
                 </b>.
               <br />
               <br />
-              Son muchos cambios por hacer que, de modificarse en suma, pueden tener un gran impacto en la sociedad.
-              <br /> 
-              Los gobiernos deben implantar y poner en marcha
-              <b className="purple"> políticas y normativas </b> que recojan medidas como el establecimiento de objetivos.{" "}
-              Es importante adoptar una 
-              <i>
-                <b className="purple">vida más sostenible:</b> consumir menos, elegir productos con menor impacto ambiental {" "}
-                y una economía circular para diseñar productos <b className="purple">duraderos, reparables y reciclables</b>.
-              </i>
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
