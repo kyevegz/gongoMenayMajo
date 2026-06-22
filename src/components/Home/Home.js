@@ -7,11 +7,11 @@ import Type from "./Type";
 //import Techstack from "../About/Techstack";
 //import Github from "../About/Github";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  // AiFillGithub,
+  // AiOutlineTwitter,
+  // AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+//import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
   return (
@@ -59,7 +59,7 @@ function Home() {
             <p>
               Por un planeta <span className="purple">libre </span>de contaminación
             </p>
-            <ul className="home-about-social-links">
+            {/* <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/soumyajit4419"
@@ -100,7 +100,7 @@ function Home() {
                   <AiFillInstagram />
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </Col>
         </Row>
       </Container>
