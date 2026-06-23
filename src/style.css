@@ -102,7 +102,7 @@ button:focus {
 .nav-item-animado.active {
   color: #b74baa !important; /* El color que deseas para la página activa */
   font-weight: bold;
-  border-bottom: 2px solid #FFB6C1; /* Opcional: línea inferior */
+  border-bottom: 4px solid #FFB6C1; /* Opcional: línea inferior */
 }
 
 
