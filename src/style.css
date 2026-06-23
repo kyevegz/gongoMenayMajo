@@ -91,6 +91,8 @@ button:focus {
   font-weight: bold;
 }
 
+
+
 .nav-item-animado {
   color: rgba(255, 255, 255, 0.7) !important; /* Ajusta a tu color original */
   transition: all 0.3s ease;
@@ -209,12 +211,13 @@ button:focus {
   position: relative;
   margin-left: 20px;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 .navbar-nav .nav-item a {
   font-weight: 400;
   transition: all 0.3s ease-out 0s;
   position: relative;
   z-index: 1;
+  font-family: "Jost", sans-serif;
 }
 
 .navbar-nav .nav-item a::after {
