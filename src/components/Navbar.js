@@ -7,15 +7,16 @@ import Button from "react-bootstrap/Button";
 
 import { NavLink } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import { PiBasketBold } from "react-icons/pi";
+import { FaHeartCirclePlus } from "react-icons/fa6";
+import { TbListDetails } from "react-icons/tb";
+import { FaClipboardQuestion } from "react-icons/fa6";
+import { SiHomeassistantcommunitystore } from "react-icons/si";
+
 import {
-  AiFillStar,
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+  AiFillStar
 } from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -55,34 +56,36 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
+              <Nav.Link as={NavLink} to="/acercaDe" className="nav-item-animado" onClick={() => updateExpanded(false)}>
+                <FaClipboardQuestion style={{ marginBottom: "2px" }} /> ¿Qué es?
+              </Nav.Link>
+            </Nav.Item> 
+
+            <Nav.Item>
               <Nav.Link as={NavLink} to="/" className="nav-item-animado" end onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Inicio
+                <SiHomeassistantcommunitystore style={{ marginBottom: "2px" }} /> Inicio
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={NavLink} to="/about" className="nav-item-animado" onClick={() => updateExpanded(false)}>
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Catálogo
+                <TbListDetails style={{ marginBottom: "2px" }} /> Catálogo
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={NavLink} to="/project" className="nav-item-animado" onClick={() => updateExpanded(false)}>
-                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} /> Favoritos
+                <FaHeartCirclePlus style={{ marginBottom: "2px" }} /> Favoritos
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={NavLink} to="/resume" className="nav-item-animado" onClick={() => updateExpanded(false)}>
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Mis compras
+                <PiBasketBold style={{ marginBottom: "2px" }} /> Mis compras
               </Nav.Link>
             </Nav.Item>
 
-             <Nav.Item>
-              <Nav.Link as={NavLink} to="/acercaDe" className="nav-item-animado" onClick={() => updateExpanded(false)}>
-                <ImBlog style={{ marginBottom: "2px" }} /> Acerca de
-              </Nav.Link>
-            </Nav.Item> 
+             
 
             <Nav.Item className="fork-btn">
               <Button href="https://github.com/kyevegz/gongoMenayMajo" target="_blank" className="fork-btn-inner">
