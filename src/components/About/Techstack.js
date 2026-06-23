@@ -25,26 +25,26 @@ import Typescript from "../../Assets/TechIcons/comida.png";
 // import AWS from "../../Assets/TechIcons/AWS.svg";
 // import Kafka from "../../Assets/TechIcons/Kafka.svg";
 
-function Techstack() {
+function Techstack({onSelectCategory}) {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" style = {{cursor: "pointer"}} onClick={() => onSelectCategory('artesanias')}>
         <img src={C} alt="C++" width={70} height={70}/>
         <div className="tech-icons-text">Artesanías y decoración</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" style = {{cursor: "pointer"}} onClick={() => onSelectCategory('moda')}>
         <img src={Javascript} alt="javascript" width={70} height={70}/>
         <div className="tech-icons-text">Textiles y calzado</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" style = {{cursor: "pointer"}} onClick={() => onSelectCategory('alimentos')}>
         <img src={Typescript} alt="typescript" width={70} height={70}/>
         <div className="tech-icons-text">Alimentos</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" style = {{cursor: "pointer"}} onClick={() => onSelectCategory('plantas')}>
         <img src={Go} alt="go" width={70} height={70}/>
         <div className="tech-icons-text">Plantas y jardinería</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" style = {{cursor: "pointer"}} onClick={() => onSelectCategory('utensilios')}>
         <img src={Node} alt="node" width={70} height={70} />
         <div className="tech-icons-text">Utensilios</div>
       </Col>

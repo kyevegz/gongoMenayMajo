@@ -97,7 +97,7 @@ function Projects() {
               isBlog={false}
               title="Botella de acero inoxidable 500ml"
               description="Botella reutilizable con capacidad de 500ml para transportar tus bebidas a todos lados. "
-              ghLink="https://www.mercadolibre.com.mx/jabon-liquido-para-manos-blumen-cherry-blossom-4l/p/MLM37034844?pdp_filters=shipping%3Afulfillment%7Cdeal%3AMLM1020488-1#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=5&type=product&tracking_id=c546cdf9-e213-4bfe-bbde-c8f2d837f76f&wid=MLM3656276782&sid=search"
+              ghLink="https://capsamex.com.mx/productos/MO6856/"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
@@ -108,7 +108,7 @@ function Projects() {
               isBlog={false}
               title="1kg de pistaches"
               description="Tarro con 1kg de pistaches frescos. "
-              ghLink="https://www.mercadolibre.com.mx/jabon-liquido-para-manos-blumen-cherry-blossom-4l/p/MLM37034844?pdp_filters=shipping%3Afulfillment%7Cdeal%3AMLM1020488-1#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=5&type=product&tracking_id=c546cdf9-e213-4bfe-bbde-c8f2d837f76f&wid=MLM3656276782&sid=search"
+              ghLink="https://donzabor.mx/products/pistache?srsltid=AfmBOoo4XRKSoGqBqA89sGNWIqwycVc5lG6yc7o9lzTbeQ0gjc2f0Nl6"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
@@ -119,7 +119,7 @@ function Projects() {
               isBlog={false}
               title="Mermelada de fresa casera 500gr"
               description="Mermelada de fresa casera, a base de frutas naturales sin azúcar. "
-              ghLink="https://www.mercadolibre.com.mx/jabon-liquido-para-manos-blumen-cherry-blossom-4l/p/MLM37034844?pdp_filters=shipping%3Afulfillment%7Cdeal%3AMLM1020488-1#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=5&type=product&tracking_id=c546cdf9-e213-4bfe-bbde-c8f2d837f76f&wid=MLM3656276782&sid=search"
+              ghLink="https://theoriginalmarket.mx/producto/mermelada-fresa-citrica-sin-azucar/?attribute_pa_370g-250g=grande-370g&srsltid=AfmBOorBP22ZiRVTG-M-AMqwFUClOTKXFCkt3HRWpS0hjT-18siDOaR-0Hw"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
@@ -130,7 +130,7 @@ function Projects() {
               isBlog={false}
               title="Miel natural 1kg"
               description="Miel producida responsablemente. "
-              ghLink="https://www.mercadolibre.com.mx/jabon-liquido-para-manos-blumen-cherry-blossom-4l/p/MLM37034844?pdp_filters=shipping%3Afulfillment%7Cdeal%3AMLM1020488-1#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=5&type=product&tracking_id=c546cdf9-e213-4bfe-bbde-c8f2d837f76f&wid=MLM3656276782&sid=search"
+              ghLink="https://titin.mx/product/miel-100-members-mark-1-kg/"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
