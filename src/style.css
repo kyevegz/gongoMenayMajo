@@ -80,6 +80,31 @@ button:focus {
 /* --------- */
 /* Navbar Section  */
 /* --------- */
+.nav-item-animado:active {
+  transform: scale(0.75);
+  transition: transform 0.1s ease;
+}
+
+/* Resaltar texto del activo permanente */
+.nav-item-animado.active {
+  color: #3498db !important;
+  font-weight: bold;
+}
+
+.nav-item-animado {
+  color: rgba(255, 255, 255, 0.7) !important; /* Ajusta a tu color original */
+  transition: all 0.3s ease;
+}
+
+/* Estilo automático cuando la página está activa */
+.nav-item-animado.active {
+  color: #b74baa !important; /* El color que deseas para la página activa */
+  font-weight: bold;
+  border-bottom: 2px solid #FFB6C1; /* Opcional: línea inferior */
+}
+
+
+
 .sticky {
   background-color: #852d3a !important;
   transition: all 0.3s ease-out 0s !important;
